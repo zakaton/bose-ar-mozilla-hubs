@@ -33,7 +33,9 @@ window.addEventListener("message", event => {
     }
 });
 
-const avatar = document.querySelector("#avatar-pov-node")
+// Thanks to @Utopiah for finding the avatar element!
+const avatar = document.querySelector("#avatar-pov-node"); // Thanks Utopiah!
+// You can find him at https://github.com/Utopiah & https://twitter.com/utopiah
 
 if(avatar && window.boseARDeviceElement == undefined) {
     const order = 'YXZ';
